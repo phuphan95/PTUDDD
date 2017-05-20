@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/moon2"
+        android:id="@+id/sunmoonimage"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/name"
+            android:textSize="30dp"
+            android:text="BangKok"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/dateWorld"
+            android:textSize="20dp"
+            android:text="4/30/2017"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:textSize="30dp"
+        android:text="10:10"
+        android:gravity="end"
+        android:layout_marginTop="10dp"
+        android:id="@+id/timeWorld"/>
+
+</LinearLayout>

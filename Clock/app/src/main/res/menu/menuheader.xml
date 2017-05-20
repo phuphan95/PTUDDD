@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/alarm"
+        android:icon="@drawable/ic_access_alarms_black_24dp"
+        android:title="@string/title_alarm" />
+    <item
+        android:id="@+id/world"
+        android:icon="@drawable/ic_public_black_24dp"
+        android:title="@string/title_world" />
+    <item
+        android:id="@+id/timer"
+        android:icon="@drawable/ic_av_timer_black_24dp"
+        android:title="@string/title_countdown" />
+    <item
+        android:id="@+id/stopwatch"
+        android:icon="@drawable/ic_timer_black_24dp"
+        android:title="@string/title_stopwatch" />
+</menu>

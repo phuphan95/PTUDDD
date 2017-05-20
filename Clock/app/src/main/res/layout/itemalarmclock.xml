@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="30dp"
+    android:layout_marginLeft="20dp"
+    android:descendantFocusability="blocksDescendants">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/sun"
+        android:id="@+id/sunmoon"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:text="7:00 am"
+        android:id="@+id/time"
+        android:textSize="40dp"
+        />
+
+    <ToggleButton
+        android:id="@+id/checkBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:gravity="right"
+
+        />
+</LinearLayout>
